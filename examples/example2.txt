@@ -1,0 +1,24 @@
+// Ornek 2: while dongusu
+// Sayac degiskenini kullanarak tekrarli islemler yapilir
+
+// 1'den 5'e kadar say
+let i = 1;
+while (i <= 5) {
+    print(i);
+    i = i + 1;
+}
+
+// Geri sayim
+let geri = 3;
+while (geri > 0) {
+    print(geri);
+    geri = geri - 1;
+}
+
+// Carpim tablosu (2 ile)
+let sayi = 1;
+while (sayi <= 5) {
+    let sonuc = sayi * 2;
+    print(sonuc);
+    sayi = sayi + 1;
+}
