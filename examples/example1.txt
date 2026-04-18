@@ -1,0 +1,29 @@
+// Ornek 1: if/else kosullu ifadeler
+// Degiskenlerin degerine gore farkli mesajlar yazdirilir
+
+let yas = 20;
+let puan = 85;
+
+// Yas kontrolu
+if (yas >= 18) {
+    print("Yetiskin");
+} else {
+    print("Cocuk");
+}
+
+// Puan kontrolu
+if (puan >= 90) {
+    print("AA");
+} else {
+    print("Gecti");
+}
+
+// Esitlik kontrolu
+let x = 10;
+let y = 10;
+
+if (x == y) {
+    print("Esit");
+} else {
+    print("Esit degil");
+}
