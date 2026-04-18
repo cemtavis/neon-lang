@@ -1,0 +1,32 @@
+// Ornek 3: Matematik islemleri ve string degiskenler
+
+// Temel matematik
+let a = 20;
+let b = 4;
+
+let toplam = a + b;
+let fark = a - b;
+let carpim = a * b;
+let bolum = a / b;
+
+print(toplam);
+print(fark);
+print(carpim);
+print(bolum);
+
+// Karmasik ifade
+let sonuc = a + b * 2;
+print(sonuc);
+
+// String degiskenler
+let isim = "Neon";
+let versiyon = "1.0";
+
+print(isim);
+print(versiyon);
+
+// Degisken guncelleme
+let sayac = 0;
+sayac = sayac + 10;
+sayac = sayac * 2;
+print(sayac);
